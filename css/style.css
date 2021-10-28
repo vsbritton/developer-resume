@@ -1,0 +1,160 @@
+/**************************TAG SELECTOR********************/
+a {
+  color: #9BBCBF;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #222622;
+}
+
+a:hover {
+  color: #f1f0eb;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #4a7a70;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #9BBCBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #4a7a70;
+  font-weight: bold;
+}
+
+hr {
+  border-style: dotted none none none;
+  color: #e0e4e5;
+  border-width: 8px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+/**************************CLASS SELECTOR********************/
+.bottom-container {
+  background-color: #4a7a70;
+  height: 100px;
+  padding-top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.BUTTON_LQH {
+  background: #9BBCBF;
+  background-image: -webkit-linear-gradient(top, #9BBCBF, #4A7A70);
+  background-image: -moz-linear-gradient(top, #9BBCBF, #4A7A70);
+  background-image: -ms-linear-gradient(top, #9BBCBF, #4A7A70);
+  background-image: -o-linear-gradient(top, #9BBCBF, #4A7A70);
+  background-image: -webkit-gradient(to bottom, #9BBCBF, #4A7A70);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: white;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin: 40px auto auto auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_LQH:hover {
+  background: #4A7A70;
+  background-image: -webkit-linear-gradient(top, #4A7A70, #9BBCBF);
+  background-image: -moz-linear-gradient(top, #4A7A70, #9BBCBF);
+  background-image: -ms-linear-gradient(top, #4A7A70, #9BBCBF);
+  background-image: -o-linear-gradient(top, #4A7A70, #9BBCBF);
+  background-image: -webkit-gradient(to bottom, #4A7A70, #9BBCBF);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.codingicon {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #f1f0eb;
+  padding: 20px 0;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.profile-picture {
+  width: 50%;
+}
+
+.top-container {
+  background-color: #f1f0eb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.slateicon {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+/**************************ID SELECTOR********************/
